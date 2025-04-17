@@ -1,0 +1,71 @@
+ {/* Self Section */}         
+<section id="self" className="p-6 max-w-4xl mx-auto">
+  <div>
+  <h1 className="text-6xl font-bold text-gray-800 mb-8 font-sans tracking-tight leading-tight flex items-center">
+  Hello. I'm 
+  <span className="inline-block relative mx-2">
+    <img
+      src="/pratap.jpg"
+      alt="Profile Picture"
+      className="w-44 h-44 rounded-l-4xl rounded-r-4xl inline-block align-middle"
+    />
+  </span> 
+  Vinay.
+</h1>
+    
+    <h2 className="text-4xl font-normal text-gray-700 leading-tight mb-8">
+      A product designer specialising in crafting seamless websites, mobile apps, delightful micro interactions and lightning - fast prototyping.
+    </h2>
+    
+    <p className="text-2xl text-gray-700">
+      Currently designing seller experiences for <span className="text-orange-500">Amazon India</span>.
+    </p>
+  </div>
+</section>
+
+
+
+<!-- ssss -->
+{/* Self Section */}
+<div className="w-full min-h-screen p-6">
+{/* Top Section - Image and Navigation */}
+<div className="flex justify-between items-start w-full mb-16">
+{/* Left Side - Logo and Image */}
+<div className="relative">
+<div className="bg-sky-300 rounded-full w-48 h-48 overflow-hidden relative">
+<img
+  src="/pratap.jpg"
+  alt="Profile Picture"
+  className="w-full h-full object-cover"
+/>
+</div>
+<div className="absolute top-0 left-0 bg-yellow-300 rounded-full w-10 h-10 flex items-center justify-center">
+<span className="font-bold text-black text-lg">QP</span>
+</div>
+</div>
+
+{/* Right Side - Navigation */}
+<div className="flex flex-col space-y-6">
+<a href="#home" className="text-lg font-medium border-b border-dotted pb-1 hover:text-gray-600">Home</a>
+<a href="#about" className="text-lg font-medium border-b border-dotted pb-1 hover:text-gray-600">About</a>
+<a href="#contact" className="text-lg font-medium border-b border-dotted pb-1 hover:text-gray-600">Contact</a>
+</div>
+</div>
+
+{/* Content Section - Below both image and navigation */}
+<section id="self" className="max-w-4xl">
+<div>
+<h1 className="text-5xl font-bold text-gray-800 font-sans tracking-tight mb-8">
+Hello. I'm Pratap.
+</h1>
+
+<h2 className="text-3xl font-normal text-gray-700 leading-tight mb-8">
+A product designer specialising in crafting seamless websites, mobile apps, delightful micro interactions and lightning-fast prototyping.
+</h2>
+
+<p className="text-xl text-gray-700">
+Currently designing seller experiences for <span className="text-orange-500">Amazon India</span>.
+</p>
+</div>
+</section>
+</div>
