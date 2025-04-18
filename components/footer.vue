@@ -10,7 +10,7 @@
                 <a
                     href="https://github.com/icepick4"
                     class="hover:underline font-bold"
-                    >Rémi Jara</a
+                    >Pratap Pawar</a
                 >
                 {{ $t('with') }}
                 <a href="https://nuxt.com/" class="hover:underline font-bold"
