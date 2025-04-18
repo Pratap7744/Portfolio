@@ -11,31 +11,31 @@ export const technoTypes = [
 const technoTypesLabels: Record<TechnoType, Record<string, string>> = {
     language: {
         en: 'Language',
-        fr: 'Langage'
+        in: 'प्रोग्रामिंग भाषा'
     },
     framework: {
         en: 'Framework',
-        fr: 'Framework'
+        in: 'फ्रेमवर्क'
     },
     library: {
         en: 'Library',
-        fr: 'Bibliothèque'
+        in: 'लाइब्रेरी'
     },
     database: {
         en: 'Database',
-        fr: 'Base de données'
+        in: 'डेटाबेस'
     },
     'development-tool': {
         en: 'Development Tool',
-        fr: 'Outil de développement'
+        in: 'डेवलपमेंट टूल'
     },
     devops: {
         en: 'DevOps',
-        fr: 'DevOps'
+        in: 'DevOps'
     },
     'apis-integration': {
         en: 'APIs & Integration',
-        fr: 'APIs et intégration'
+        in: 'एपीआई & इंटीग्रेशन'
     }
 };
 
@@ -56,33 +56,24 @@ type Techno = {
 
 export const projectTypes = [
     'favorite',
-    'game',
     'web',
-    'dev-tool',
-    'scripting'
+    'game',
+    
 ] as const;
 
 const projectTypesLabels: Record<ProjectType, Record<string, string>> = {
     favorite: {
         en: 'Favorite',
-        fr: 'Favoris'
-    },
-    game: {
-        en: 'Game',
-        fr: 'Jeux-vidéo'
+        in: 'पसंदीदा प्रोजेक्ट'
     },
     web: {
         en: 'Web',
-        fr: 'Web'
+        in: 'वेब'
     },
-    'dev-tool': {
-        en: 'Dev Tool',
-        fr: 'Outil de développement'
+    game: {
+        en: 'Game',
+        in: 'गेम'
     },
-    scripting: {
-        en: 'Scripting',
-        fr: 'Script'
-    }
 };
 
 export function getProjectTypeLabel(type: ProjectType) {
@@ -92,7 +83,7 @@ export function getProjectTypeLabel(type: ProjectType) {
 
 type ProjectType = (typeof projectTypes)[number];
 
-type Locale = 'en' | 'fr';
+type Locale = 'en' | 'in';
 
 type Project = {
     name: string;

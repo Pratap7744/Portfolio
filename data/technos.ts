@@ -18,10 +18,22 @@ export const technos: Techno[] = [
         url: 'https://www.typescriptlang.org/'
     },
     {
+        title: 'PostgreSQL',
+        icon: 'postgresql',
+        type: 'database',
+        url: 'https://www.postgresql.org/'
+    },
+    {
         title: 'Angular',
         icon: 'angularjs',
         type: 'framework',
         url: 'https://angular.io/'
+    },
+    {
+        title: 'Next.JS',
+        icon: 'nextjs',
+        type: 'framework',
+        url: 'https://nextjs.org/'
     },
     {
         title: 'Java',
@@ -34,12 +46,6 @@ export const technos: Techno[] = [
         icon: 'python',
         type: 'language',
         url: 'https://www.python.org/'
-    },
-    {
-        title: 'Pygame',
-        image: 'pygame',
-        type: 'library',
-        url: 'https://pygame.org/'
     },
     {
         title: 'PHP',
@@ -66,12 +72,6 @@ export const technos: Techno[] = [
         url: 'https://www.w3schools.com/css/'
     },
     {
-        title: 'Markdown',
-        icon: 'markdown',
-        type: 'language',
-        url: 'https://www.markdownguide.org/'
-    },
-    {
         title: 'SCSS',
         icon: 'sass',
         type: 'library',
@@ -83,24 +83,7 @@ export const technos: Techno[] = [
         type: 'library',
         url: 'https://tailwindcss.com/'
     },
-    {
-        title: 'Symfony',
-        icon: 'symfony',
-        type: 'framework',
-        url: 'https://symfony.com/'
-    },
-    {
-        title: 'Vue.js',
-        icon: 'vuejs',
-        type: 'framework',
-        url: 'https://vuejs.org/'
-    },
-    {
-        title: 'Nuxt.js',
-        icon: 'nuxtjs',
-        type: 'framework',
-        url: 'https://nuxt.com/'
-    },
+    
     {
         title: 'Node.js',
         icon: 'nodejs',
@@ -150,12 +133,6 @@ export const technos: Techno[] = [
         url: 'https://github.com'
     },
     {
-        title: 'GitHub Actions',
-        icon: 'githubactions',
-        type: 'devops',
-        url: 'https://github.com/features/actions'
-    },
-    {
         title: 'GitHub Copilot',
         image: 'githubcopilot',
         type: 'development-tool',
@@ -174,12 +151,6 @@ export const technos: Techno[] = [
         url: 'https://www.docker.com/'
     },
     {
-        title: 'Terraform',
-        icon: 'terraform',
-        type: 'devops',
-        url: 'https://www.terraform.io/'
-    },
-    {
         title: 'AWS',
         icon: 'amazonwebservices',
         type: 'devops',
@@ -190,12 +161,6 @@ export const technos: Techno[] = [
         icon: 'linux',
         type: 'development-tool',
         url: 'https://www.linux.org/'
-    },
-    {
-        title: 'Arch Linux',
-        icon: 'archlinux',
-        type: 'development-tool',
-        url: 'https://archlinux.org/'
     },
     {
         title: 'Windows',
@@ -216,34 +181,10 @@ export const technos: Techno[] = [
         url: 'https://insomnia.rest/'
     },
     {
-        title: 'GraphQL',
-        icon: 'graphql',
-        type: 'apis-integration',
-        url: 'https://graphql.org/'
-    },
-    {
         title: 'OAuth',
         icon: 'oauth',
         type: 'apis-integration',
         url: 'https://oauth.net/'
-    },
-    {
-        title: 'Zod',
-        image: 'zod',
-        type: 'library',
-        url: 'https://zod.dev/'
-    },
-    {
-        title: 'NuxtUI',
-        icon: 'nuxtjs',
-        type: 'library',
-        url: 'https://ui.nuxt.com/'
-    },
-    {
-        title: 'Three.js',
-        icon: 'threejs',
-        type: 'library',
-        url: 'https://threejs.org/'
     },
     {
         title: 'OpenAI',
@@ -252,9 +193,9 @@ export const technos: Techno[] = [
         url: 'https://openai.com/'
     },
     {
-        title: 'Resend',
-        image: 'resend',
-        type: 'library',
-        url: 'https://resend.com/'
-    }
+        title: 'Supabase',
+        image: 'supabase',
+        type: 'database',
+        url: 'https://supabase.com/'
+    },
 ];

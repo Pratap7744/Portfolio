@@ -1,7 +1,7 @@
 <template>
     <div>
         <embed
-            src="/remi-jara-resume-2024.pdf"
+            src="/pratap-resume.pdf"
             type="application/pdf"
             style="min-height: 100vh; width: 100%"
         />

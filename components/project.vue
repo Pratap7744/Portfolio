@@ -52,8 +52,8 @@ function getProjectImageName(title: string) {
                 class="text-xs text-neutral-600 dark:text-neutral-400 w-full sm:w-1/2"
             >
                 {{
-                    locale === 'fr'
-                        ? project.description.fr
+                    locale === 'in'
+                        ? project.description.in
                         : project.description.en
                 }}
             </p>

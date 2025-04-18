@@ -11,7 +11,7 @@ import { IconLink, IconMapPinFilled } from '@tabler/icons-vue';
                         class="absolute transform -translate-x-5 transition duration-200 opacity-0 w-4 h-4 group-hover:opacity-100"
                     />
                     <h2 class="text-2xl font-bold hover:cursor-pointer">
-                        Rémi Jara
+                        {{ $t('name') }}
                     </h2>
                 </div>
             </a>
@@ -25,7 +25,7 @@ import { IconLink, IconMapPinFilled } from '@tabler/icons-vue';
                     class="max-w-md items-center text-xs gap-1.5 inline-flex text-neutral-600 dark:text-neutral-400"
                 >
                     <IconMapPinFilled class="w-4 h-4" />
-                    Lyon, France
+                    {{ $t('location') }}
                 </p>
             </div>
             <div class="flex flex-row gap-2 items-center">
@@ -35,7 +35,7 @@ import { IconLink, IconMapPinFilled } from '@tabler/icons-vue';
                     color="primary"
                     variant="soft"
                     square
-                    to="https://github.com/icepick4"
+                    to="https://github.com/Pratap7744"
                     target="_blank"
                     title="GitHub"
                 />
@@ -45,7 +45,7 @@ import { IconLink, IconMapPinFilled } from '@tabler/icons-vue';
                     color="primary"
                     variant="soft"
                     square
-                    to="https://www.linkedin.com/in/remijara/"
+                    to="https://www.linkedin.com/in/pratap-pawar-5a0b48253/"
                     target="_blank"
                     title="LinkedIn"
                 />
@@ -55,7 +55,7 @@ import { IconLink, IconMapPinFilled } from '@tabler/icons-vue';
                     color="primary"
                     variant="soft"
                     square
-                    to="tel:+33771675362"
+                    to="tel:+91 8308326267"
                     arial-label="Phone"
                 />
                 <UButton
@@ -64,7 +64,7 @@ import { IconLink, IconMapPinFilled } from '@tabler/icons-vue';
                     color="primary"
                     variant="soft"
                     square
-                    to="mailto:remi.jara4@gmail.com"
+                    to="mailto:pratappawar8698567744@gmail.com"
                     arial-label="Email"
                 />
                 <UButton
@@ -84,8 +84,8 @@ import { IconLink, IconMapPinFilled } from '@tabler/icons-vue';
             <ConfettisButton>
                 <template v-slot:default="{ onLaunchConfettis }">
                     <img
-                        src="/photo.webp"
-                        alt="Rémi Jara"
+                        src="/pratap.jpg"
+                        alt="Pratap Pawar"
                         class="sm:w-40 sm:h-40 w-24 h-24 rounded-full object-cover hover:cursor-pointer"
                         @click="onLaunchConfettis()"
                     />

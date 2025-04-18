@@ -3,24 +3,24 @@ import type { Hobby } from './types';
 export const hobbies: Hobby[] = [
     {
         title: {
-            en: 'Skateboarding',
-            fr: 'Skateboard'
-        },
-        icon: 'skateboard',
-        emoji: '🛹'
-    },
-    {
-        title: {
             en: 'Gaming',
-            fr: 'Jeux-vidéo'
+            in: 'गेमिंग'
         },
         icon: 'joystick',
         emoji: '🕹️'
     },
     {
         title: {
+            en: 'Wrestling',
+            in: 'कुश्ती'
+        },
+        icon: 'man-wrestling',
+        emoji: '🤼'
+    },
+    {
+        title: {
             en: 'Programming',
-            fr: 'Programmation'
+            in: 'प्रोग्रामिंग'
         },
         icon: 'keyboard',
         emoji: '⌨️'
@@ -28,17 +28,25 @@ export const hobbies: Hobby[] = [
     {
         title: {
             en: 'Computer Science',
-            fr: 'Informatique'
+            in: 'कंप्यूटर विज्ञान'
         },
         icon: 'desktop-computer',
         emoji: '🖥️'
     },
     {
         title: {
-            en: 'Running',
-            fr: 'Course à pied'
+            en: 'Exploring',
+            in: 'अन्वेषण'
         },
-        icon: 'man-running',
-        emoji: '🏃‍♂️'
+        icon: 'national-park',
+        emoji: '🏞️'
+    },
+    {
+        title: {
+            en: 'Farming',
+            in: 'खेती'
+        },
+        icon: 'sheaf-of-rice',
+        emoji: '🌾'
     }
 ];

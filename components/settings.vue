@@ -2,7 +2,7 @@
 const { locale, setLocale } = useI18n();
 
 function localeToSet() {
-    return locale.value === 'fr' ? 'en' : 'fr';
+    return locale.value === 'in' ? 'en' : 'in';
 }
 
 const colorMode = useColorMode();
@@ -22,7 +22,7 @@ function rickRoll() {
 
 <template>
     <div class="flex flex-row gap-2 items-center">
-        <UButton icon="i-circle-flags-fr" class="hidden" />
+        <UButton icon="i-circle-flags-in" class="hidden" />
         <UButton icon="i-circle-flags-en" class="hidden" />
         <UButton
             @click="setLocale(localeToSet())"

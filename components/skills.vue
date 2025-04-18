@@ -28,7 +28,7 @@ const colorMode = useColorMode();
                     class="absolute transform -translate-x-5 transition duration-200 opacity-0 w-4 h-4 group-hover:opacity-100"
                 />
                 <h2 class="text-xl font-bold hover:cursor-pointer">
-                    Technologies
+                    {{ $t('technologies') }}
                 </h2>
             </div>
         </a>

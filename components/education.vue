@@ -10,7 +10,7 @@ import { IconLink } from '@tabler/icons-vue';
                     class="absolute transform -translate-x-5 transition duration-200 opacity-0 w-4 h-4 group-hover:opacity-100"
                 />
                 <h2 class="text-xl font-bold hover:cursor-pointer">
-                    Education
+                    {{ $t('education') }}
                 </h2>
             </div>
         </a>
@@ -23,16 +23,15 @@ import { IconLink } from '@tabler/icons-vue';
                         <div class="flex flex-row items-center gap-2">
                             <a
                                 class="text-base sm:text-lg font-bold hover:underline"
-                                href="https://www.cpe.fr/"
-                                >CPE Lyon</a
+                                >{{ $t('gradcollege') }}</a
                             >
-                            <p class="sm:hidden block text-sm">• 2024 - 2027</p>
+                            <p class="sm:hidden block text-sm">• 2022 - 2025</p>
                         </div>
-                        <p class="text-xs sm:text-sm">{{ $t('cpe') }}</p>
+                        <p class="text-xs sm:text-sm">{{ $t('grad') }}</p>
                     </div>
 
                     <div class="flex flex-col items-end gap-0.5">
-                        <p class="hidden sm:block text-sm">2024 - 2027</p>
+                        <p class="hidden sm:block text-sm">2022 - 2025</p>
                     </div>
                 </div>
             </div>
@@ -44,14 +43,30 @@ import { IconLink } from '@tabler/icons-vue';
                         <div class="flex flex-row items-center gap-2">
                             <a
                                 class="text-base sm:text-lg font-bold hover:underline"
-                                href="https://www.univ-lyon1.fr/"
-                                >Université Lyon 1</a
+                                >{{ $t('college') }}</a
                             >
-                            <p class="sm:hidden block text-sm">• 2021 - 2024</p>
+                            <p class="sm:hidden block text-sm">• 2020 - 2021</p>
                         </div>
-                        <p class="text-xs sm:text-sm">{{ $t('but') }}</p>
+                        <p class="text-xs sm:text-sm">{{ $t('twe') }}</p>
                     </div>
-                    <p class="hidden sm:block text-sm">2021 - 2024</p>
+                    <p class="hidden sm:block text-sm">2020 - 2021</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col gap-2">
+            <div class="flex flex-col">
+                <div class="flex flex-row items-center justify-between w-full">
+                    <div class="flex flex-col items-start">
+                        <div class="flex flex-row items-center gap-2">
+                            <a
+                                class="text-base sm:text-lg font-bold hover:underline"
+                                >{{ $t('school') }}</a
+                            >
+                            <p class="sm:hidden block text-sm">• 2018 - 2019</p>
+                        </div>
+                        <p class="text-xs sm:text-sm">{{ $t('ten') }}</p>
+                    </div>
+                    <p class="hidden sm:block text-sm">2018 - 2019</p>
                 </div>
             </div>
         </div>

@@ -20,7 +20,7 @@ useHead({
                         class="absolute transform -translate-x-5 transition duration-200 opacity-0 w-4 h-4 group-hover:opacity-100"
                     />
                     <h2 class="text-xl font-bold hover:cursor-pointer">
-                        Certifications
+                        {{ $t('certifications') }}
                     </h2>
                 </div>
             </a>
@@ -44,8 +44,8 @@ useHead({
                     <div class="flex flex-col items-start gap-2 w-3/4">
                         <a
                             class="text-lg font-bold hover:underline"
-                            href="https://resources.github.com/learn/certifications/"
-                            >GitHub Actions</a
+                            href="https://github.com/Pratap7744/Certificates/blob/main/PratapCertificate.pdf"
+                            >React-Complete Guide 2025(Incl. Next.JS, Redux)</a
                         >
                         <p
                             class="text-xs text-pretty text-neutral-600 dark:text-neutral-400"
@@ -66,12 +66,12 @@ useHead({
                     <div class="flex flex-col justify-start items-end gap-0.5">
                         <p class="text-sm mb-1.5">October 2024</p>
                         <a
-                            href="https://www.credly.com/badges/a3e27415-2a38-4d99-940c-f3df155fbad1/public_url"
+                            href="https://github.com/Pratap7744/Certificates/blob/main/PratapCertificate.pdf"
                             target="_blank"
                             class="group relative"
                         >
                             <img
-                                src="/logos/github-actions-badge.webp"
+                                src="https://frontends.udemycdn.com/frontends-logged-in-homepages/staticx/udemy/images/v7/logo-udemy.svg"
                                 alt="GitHub Cert"
                                 class="w-24 h-24"
                             />
@@ -87,8 +87,8 @@ useHead({
                     <div class="flex flex-col items-start gap-2 w-3/4">
                         <a
                             class="text-lg font-bold hover:underline"
-                            href="https://resources.github.com/learn/certifications/"
-                            >GitHub Foundations</a
+                            href="https://github.com/Pratap7744/Certificates/blob/main/PratapDSAcertificate.pdf"
+                            >Data Structure and Algorithms</a
                         >
                         <p
                             class="text-xs text-pretty text-neutral-600 dark:text-neutral-400"
@@ -109,12 +109,12 @@ useHead({
                     <div class="flex flex-col justify-start items-end gap-0.5">
                         <p class="text-sm mb-1.5">July 2024</p>
                         <a
-                            href="https://www.credly.com/badges/73b09490-6836-4bc1-b934-8238c75d4d0d/public_url"
+                            href="https://github.com/Pratap7744/Certificates/blob/main/PratapDSAcertificate.pdf"
                             target="_blank"
                             class="group relative"
                         >
                             <img
-                                src="/logos/github-foundations-badge.webp"
+                                src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg"
                                 alt="GitHub Cert"
                                 class="w-24 h-24"
                             />
@@ -125,44 +125,7 @@ useHead({
                     </div>
                 </div>
             </div>
-            <div>
-                <div class="flex flex-row justify-between gap-2 w-full">
-                    <div class="flex flex-col items-start gap-2 w-5/6">
-                        <a
-                            class="text-lg font-bold hover:underline"
-                            href="https://www.ets.org/toeic"
-                            >{{ $t('toeicTitle') }}</a
-                        >
-                        <p
-                            class="text-xs text-pretty text-neutral-600 dark:text-neutral-400"
-                        >
-                            {{ $t('toeicDescription') }}<br />
-                            ———<br />
-                            {{ $t('toeicListening') }}: 460/495<br />
-                            {{ $t('toeicReading') }}: 420/495<br />
-                            Total: 880/990 ({{ $t('toeicLevel') }})
-                        </p>
-                    </div>
-
-                    <div class="flex flex-col justify-start items-end gap-0.5">
-                        <p class="text-sm mb-1.5">May 2024</p>
-                        <a
-                            href="https://www.ets.org/toeic"
-                            target="_blank"
-                            class="group relative"
-                        >
-                            <img
-                                src="/logos/toeic.webp"
-                                alt="TOEIC Cert"
-                                class="h-9 w-auto"
-                            />
-                            <IconExternalLink
-                                class="w-5 h-5 opacity-0 group-hover:opacity-100 transition duration-300 absolute"
-                            />
-                        </a>
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </section>
 </template>
