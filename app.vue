@@ -1,20 +1,20 @@
 <script setup lang="ts">
 useHead({
-    title: 'Rémi Jara',
+    title: 'Pratap Pawar',
     meta: [
         {
             name: 'description',
             content:
-                "Rémi Jara, I'm a passionate developer with a deep interest in technology and all things related to computing. Over the years, I've dedicated myself creating a variety of personal projects, driven by my passion for learning and exploring new technologies."
+                "I'm Pratap Pawar, a passionate developer focused on creating responsive UIs, integrating powerful APIs, and building aesthetic web and AI-driven applications. I love exploring new technologies and crafting unique, user-centric experiences."
         },
         {
             property: 'og:title',
-            content: 'Rémi Jara'
+            content: 'Pratap Pawar'
         },
         {
             property: 'og:description',
             content:
-                "Rémi Jara, I'm a passionate developer with a deep interest in technology and all things related to computing. Over the years, I've dedicated myself creating a variety of personal projects, driven by my passion for learning and exploring new technologies."
+                "I'm Pratap Pawar, a passionate developer focused on creating responsive UIs, integrating powerful APIs, and building aesthetic web and AI-driven applications. I love exploring new technologies and crafting unique, user-centric experiences."
         },
         {
             property: 'twitter:card',
@@ -24,12 +24,12 @@ useHead({
 });
 
 useSeoMeta({
-    title: 'Rémi Jara',
+    title: 'Pratap Pawar',
     description:
-        "Rémi Jara, I'm a passionate developer with a deep interest in technology and all things related to computing. Over the years, I've dedicated myself creating a variety of personal projects, driven by my passion for learning and exploring new technologies.",
-    ogTitle: 'Rémi Jara',
+        "I'm Pratap Pawar, a passionate developer focused on creating responsive UIs, integrating powerful APIs, and building aesthetic web and AI-driven applications. I love exploring new technologies and crafting unique, user-centric experiences.",
+    ogTitle: 'Pratap Pawar',
     ogDescription:
-        "Rémi Jara, I'm a passionate developer with a deep interest in technology and all things related to computing. Over the years, I've dedicated myself creating a variety of personal projects, driven by my passion for learning and exploring new technologies.",
+        "I'm Pratap Pawar, a passionate developer focused on creating responsive UIs, integrating powerful APIs, and building aesthetic web and AI-driven applications. I love exploring new technologies and crafting unique, user-centric experiences.",
     twitterCard: 'summary'
 });
 </script>
