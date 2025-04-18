@@ -16,7 +16,7 @@ const isDark = computed({
 });
 
 function rickRoll() {
-    window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
+    window.open('https://youtu.be/jmpUP1MaQ9Q?si=6u8KWvBSKMKkpibg', '_blank');
 }
 </script>
 
